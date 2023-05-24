@@ -35,3 +35,25 @@ function fullname(){
     
 }
 fullname();
+
+// QUESTION 2 
+
+let person2 ={
+    firstName: 'Siyamanga',
+    lastName: 'Zweni',
+    Age: 22,
+   
+   
+}
+let Subjects=['CSS','HTML','BOOTSTRAP','JS']
+let Address={
+    name: 'GroundWork',
+    streetNumber: 05,
+    surbub: 'BlueDowns',
+    city: 'CPT',
+    Country: 'SA',
+}
+function fullDetails (){
+    console.log( "these are my details", person2 , "i did the following subjects", Subjects, "Here is my address", Address);
+}
+fullDetails();
