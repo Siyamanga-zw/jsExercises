@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+label{
+    border: 1px solid black;
+    padding:0 50px;
+    background-color: rgb(18, 108, 18);
+    color: #fff;
+}
+
+.right{
+    margin-left: 170px;
+    width: 260px;
+}
+.container{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(102, 216, 216);
+}
+button{
+    width: 174px;
+    height: 25px;
+    margin-left: 170px;
+}
