@@ -60,20 +60,44 @@ fullDetails();
 
 
 // QUESTIO N3
-let numb1 =document.querySelector('#firstValue')
-let operator=document.querySelector('#secondValue')
-let numb2=document.querySelector('#3rdValue')
-let bmi=0;
-let result= document.querySelector('#Answer')
-let val =true
+//  let numb1 = document.querySelector('#numb1')
+//  let numb = document.querySelector('#operator')
+//  let numb2 = document.querySelector('#numb2')
+ 
 
-//operator
-function displayResult() {
-    let number1 = document.getElementById("number1").value;
-    let operator = document.getElementById("operator").value;
-    let number2 = document.getElementById("number2").value;
-    let result = "Number 1: " + number1 + "<br>Oparetor: " + operator + "<br>Number 2: " + number2;
-    document.getElementById("lblResult").innerHTML = result;
-  }
-  let btnResult = document.getElementById("btnResult");
-  btnResult.addEventListener("click", displayResult);
+// //operator
+// function Displaythis() {
+//    console.log(numb1.value + numb + numb2.value); 
+   
+// }
+// Displaythis();
+
+
+
+function displayThis(){
+    let numb1 = parseFloat(document.querySelector('#numb1').value);
+    let numb = document.querySelector('#operator').value;
+    let numb2 = parseFloat (document.querySelector('#numb2').value);
+    let answer = document.querySelector('#answer')
+
+    if(numb == "+"){
+        answer.textContent = numb1 + numb2;
+    }
+    else if (numb == "-") {
+        answer.textContent = numb1 -  numb2;
+    } else if (numb == "*"){
+        answer.textContent = numb1 * numb2;
+    }
+    else if (numb == "/"){
+        answer.textContent = numb1 / numb2;
+    } else{
+
+        answer.textContent = "error";
+    }
+    
+    // console.log(answer);
+}
+// let output = document.querySelector('#output');
+
+   
+

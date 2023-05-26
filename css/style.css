@@ -11,7 +11,9 @@ label{
     background-color: rgb(18, 108, 18);
     color: #fff;
 }
-
+label #operator{
+    padding:0 90px;
+}
 .right{
     margin-left: 170px;
     width: 260px;
