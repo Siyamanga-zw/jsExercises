@@ -124,5 +124,27 @@ console.log(arr[0].name, "is " , age,"years old");
 let daysLeft = arr[0].dob.slice(-2) - today.slice(-2) ;
 console.log("there are", daysLeft,"days left till" ,arr[0].name, "birthday");
 
+let userMarks= prompt('enter your marks');
+switch (true ){
+    case userMarks === 100:
+        console.log("EXCELLENT");
+        break;
+    case userMarks >= 90 && userMarks <=99:
+        console.log("WELL DONE");
+        break;
+     case  userMarks >= 80 && userMarks <= 89:
+        console.log("Way to go");
+        break;
+     case  userMarks >= 75 && userMarks <=79:
+        console.log("Keep it up");
+        break;
+     case  userMarks >= 60 && userMarks <=74:
+        console.log("you did good");
+        break;
+     case userMarks >= 50 && userMarks <= 59:
+        console.log("That was good");
+        break;
 
-
+    default:
+        console.log(`you failed`);
+}
