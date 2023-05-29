@@ -29,74 +29,74 @@
 // NUMBER 8.
 // Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
-let name = "Siyamanga"
-function fullname(){
-    console.log(name);
+// let name = "Siyamanga"
+// function fullname(){
+//     console.log(name);
     
-}
-fullname();
+// }
+// fullname();
 
 // QUESTION 2 
 
-let person2 ={
-    firstName: 'Siyamanga',
-    lastName: 'Zweni',
-    Age: 22,
+// let person2 ={
+//     firstName: 'Siyamanga',
+//     lastName: 'Zweni',
+//     Age: 22,
    
-   
-}
-let Subjects=['CSS','HTML','BOOTSTRAP','JS']
-let Address={
-    name: 'GroundWork',
-    streetNumber: 05,
-    surbub: 'BlueDowns',
-    city: 'CPT',
-    Country: 'SA',
-}
-function fullDetails (){
-    console.log( "these are my details", person2 , "i did the following subjects", Subjects, "Here is my address", Address);
-}
-fullDetails();
-
-
-// QUESTIO N3
-//  let numb1 = document.querySelector('#numb1')
-//  let numb = document.querySelector('#operator')
-//  let numb2 = document.querySelector('#numb2')
- 
-
-// //operator
-// function Displaythis() {
-//    console.log(numb1.value + numb + numb2.value); 
    
 // }
-// Displaythis();
+// let Subjects=['CSS','HTML','BOOTSTRAP','JS']
+// let Address={
+//     name: 'GroundWork',
+//     streetNumber: 05,
+//     surbub: 'BlueDowns',
+//     city: 'CPT',
+//     Country: 'SA',
+// }
+// function fullDetails (){
+//     console.log( "these are my details", person2 , "i did the following subjects", Subjects, "Here is my address", Address);
+// }
+// fullDetails();
+
+
+// // QUESTIO N3
+// //  let numb1 = document.querySelector('#numb1')
+// //  let numb = document.querySelector('#operator')
+// //  let numb2 = document.querySelector('#numb2')
+ 
+
+// // //operator
+// // function Displaythis() {
+// //    console.log(numb1.value + numb + numb2.value); 
+   
+// // }
+// // Displaythis();
 
 
 
-function displayThis(){
-    let numb1 = parseFloat(document.querySelector('#numb1').value);
-    let numb = document.querySelector('#operator').value;
-    let numb2 = parseFloat (document.querySelector('#numb2').value);
-    let answer = document.querySelector('#answer')
+// function displayThis(){
+//     let numb1 = parseFloat(document.querySelector('#numb1').value);
+//     let numb = document.querySelector('#operator').value;
+//     let numb2 = parseFloat (document.querySelector('#numb2').value);
+//     let answer = document.querySelector('#answer')
 
-    if(numb == "+"){
-        answer.textContent = numb1 + numb2;
-    }
-    else if (numb == "-") {
-        answer.textContent = numb1 -  numb2;
-    } else if (numb == "*"){
-        answer.textContent = numb1 * numb2;
-    }
-    else if (numb == "/"){
-        answer.textContent = numb1 / numb2;
-    } else{
+//     if(numb == "+"){
+//         answer.textContent = numb1 + numb2;
+//     }
+//     else if (numb == "-") {
+//         answer.textContent = numb1 -  numb2;
+//     } else if (numb == "*"){
+//         answer.textContent = numb1 * numb2;
+//     }
+//     else if (numb == "/"){
+//         answer.textContent = numb1 / numb2;
+//     } else{
 
-        answer.textContent = "error";
-    }
+//         answer.textContent = "error";
+//     }
     
     // console.log(answer);
-}
+
 // QUESTION 4
 
     let subject = "programming";
@@ -109,6 +109,20 @@ function displayThis(){
 console.log(newString)
 
 
-
+//question 5
+ let arr = [
+    {
+    name : 'Mish-Al',
+    dob: '20200531'
+ },]
    
+ let today = '20230529';
+ 
+ let age = Math.round((today - arr[0].dob )/ 10000);
+console.log(arr[0].name, "is " , age,"years old");
+
+let daysLeft = arr[0].dob.slice(-2) - today.slice(-2) ;
+console.log("there are", daysLeft,"days left till" ,arr[0].name, "birthday");
+
+
 
