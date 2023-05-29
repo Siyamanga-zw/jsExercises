@@ -97,7 +97,18 @@ function displayThis(){
     
     // console.log(answer);
 }
-// let output = document.querySelector('#output');
+// QUESTION 4
+
+    let subject = "programming";
+    let newString = "";
+    for (let i = subject.length -1; i >= 0; i-- ) {
+        newString += subject[i];
+        
+    
+    }
+console.log(newString)
+
+
 
    
 
