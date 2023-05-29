@@ -100,51 +100,63 @@
 // QUESTION 4
 
     let subject = "programming";
-    let newString = "";
-    for (let i = subject.length -1; i >= 0; i-- ) {
-        newString += subject[i];
-        
-    
-    }
-console.log(newString)
+//     let newString = "";
+//     for (let i = subject.length -1; i >= 0; i-- ) {
+//         newString += subject[i];
+// }
+// // console.log(newString)
+// console.log(subject.split('').reverse().join(''));//split this makes the subject into an array alphabets, join returns the string to a word 
 
 
-//question 5
- let arr = [
-    {
-    name : 'Mish-Al',
-    dob: '20200531'
- },]
+
+// //question 5
+//  let arr = [
+//     {3 pages, pne where you display your projects
+//     name : 'Mish-Al',
+//     dob: '20200531'
+//  },]
    
- let today = '20230529';
+//  let today = '20230529';
  
- let age = Math.round((today - arr[0].dob )/ 10000);
-console.log(arr[0].name, "is " , age,"years old");
+//  let age = Math.round((today - arr[0].dob )/ 10000);
+// console.log(arr[0].name, "is " , age,"years old");
 
-let daysLeft = arr[0].dob.slice(-2) - today.slice(-2) ;
-console.log("there are", daysLeft,"days left till" ,arr[0].name, "birthday");
+// let daysLeft = arr[0].dob.slice(-2) - today.slice(-2) ;
+// console.log("there are", daysLeft,"days left till" ,arr[0].name, "birthday");
 
-let userMarks= prompt('enter your marks');
-switch (true ){
-    case userMarks === 100:
-        console.log("EXCELLENT");
-        break;
-    case userMarks >= 90 && userMarks <=99:
-        console.log("WELL DONE");
-        break;
-     case  userMarks >= 80 && userMarks <= 89:
-        console.log("Way to go");
-        break;
-     case  userMarks >= 75 && userMarks <=79:
-        console.log("Keep it up");
-        break;
-     case  userMarks >= 60 && userMarks <=74:
-        console.log("you did good");
-        break;
-     case userMarks >= 50 && userMarks <= 59:
-        console.log("That was good");
-        break;
+// let userMarks= prompt('enter your marks');
+// switch (true ){  
+//     case userMarks === 100:
+//         console.log("EXCELLENT");
+//         break;
+//     case userMarks >= 90 && userMarks <=99:
+//         console.log("WELL DONE");
+//         break;
+//      case  userMarks >= 80 && userMarks <= 89:
+//         console.log("Way to go");
+//         break;
+//      case  userMarks >= 75 && userMarks <=79:
+//         console.log("Keep it up");
+//         break;
+//      case  userMarks >= 60 && userMarks <=74:
+//         console.log("you did good");
+//         break;
+//      case userMarks >= 50 && userMarks <= 59:
+//         console.log("That was good");
+//         break;
 
-    default:
-        console.log(`you failed`);
-}
+//     default:
+//         console.log(`you failed`);
+// }
+
+
+let friends = ['Henk', 'Peter','Jack','lerato','Julius']
+// console.log(slice(2,3));
+// console.log(friends.slice(2,4));
+// friends.splice(3,1);
+// console.log(friends);
+// console.log(friends);
+let numbers = [1, 2, 3 , 4, 4, 5]
+let noDuplicate =[]
+
+
